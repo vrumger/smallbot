@@ -1,0 +1,31 @@
+{
+  "name": "smallbot",
+  "version": "1.0.0",
+  "description": "Small telegram bot library.",
+  "main": "lib/index.js",
+  "scripts": {
+    "build": "tsc -p .",
+    "prepublishOnly": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YouTwitFace/smallbot.git"
+  },
+  "keywords": [
+    "telegram"
+  ],
+  "author": "YouTwitFace <contact@lungers.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/YouTwitFace/smallbot/issues"
+  },
+  "homepage": "https://github.com/YouTwitFace/smallbot#readme",
+  "dependencies": {
+    "request": "^2.88.0",
+    "request-promise": "^4.2.4"
+  },
+  "devDependencies": {
+    "@types/request-promise": "^4.1.42",
+    "typescript": "^3.4.2"
+  }
+}
