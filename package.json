@@ -21,11 +21,11 @@
   },
   "homepage": "https://github.com/YouTwitFace/smallbot#readme",
   "dependencies": {
-    "request": "^2.88.0",
-    "request-promise": "^4.2.4"
+    "request": "^2.88.2",
+    "request-promise": "^4.2.5"
   },
   "devDependencies": {
-    "@types/request-promise": "^4.1.42",
-    "typescript": "^3.4.2"
+    "@types/request-promise": "^4.1.46",
+    "typescript": "^3.9.7"
   }
 }
